@@ -11,7 +11,7 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Body />}>
-          <Route path="/" element={<Inicial />} />
+          <Route path="/inicio" element={<Inicial />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/albuns" element={<Albums />} />
